@@ -1,4 +1,4 @@
-# $Revision: 1.13 $ $Date: 2003-07-06 23:27:14 $
+# $Revision: 1.14 $ $Date: 2003-08-18 08:07:53 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
 Summary(pl):	Monitor zajêto¶ci pamiêci i swapa dla Window Makera
 Name:		WMMemMon
@@ -36,7 +36,7 @@ rm -f missing
 %{__aclocal}
 %{__autoconf}
 %{__automake}
-%configure 
+%configure
 %{__make}
 
 %install
