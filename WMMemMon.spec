@@ -1,4 +1,4 @@
-# $Revision: 1.11 $ $Date: 2003-05-25 05:45:22 $
+# $Revision: 1.12 $ $Date: 2003-05-28 12:58:47 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
 Summary(pl):	Monitor zajêto¶ci pamiêci i swapa dla Window Makera
 Name:		WMMemMon
@@ -8,6 +8,7 @@ License:	GPL
 Group:		X11/Window Managers/Tools
 # new version: http://www.sh.rim.or.jp/~ssato/src/wmmemmon-0.7.0.tar.bz2
 Source0:	http://www.sh.rim.or.jp/~ssato/src/%{name}-%{version}.tar.gz
+# Source0-md5:	82bb1b07e7675a502d62c4b12d7fc6f2
 Source1:	%{name}.desktop
 URL:		http://www.sh.rim.or.jp/~ssato/dockapp/index.shtml#wmmemmon
 BuildRequires:	XFree86-devel
