@@ -1,4 +1,4 @@
-# $Revision: 1.4 $ $Date: 2002-02-22 23:28:38 $
+# $Revision: 1.5 $ $Date: 2002-03-24 23:28:13 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
 Summary(pl):	Monitor zajêto¶ci pamiêci i swapa dla Window Makera
 Name:		WMMemMon
@@ -34,7 +34,7 @@ czy Blackbox.
 %build
 aclocal
 autoconf
-automake -a -c
+automake -a -c -f
 %configure 
 %{__make}
 
