@@ -1,4 +1,4 @@
-# $Revision: 1.12 $ $Date: 2003-05-28 12:58:47 $
+# $Revision: 1.13 $ $Date: 2003-07-06 23:27:14 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
 Summary(pl):	Monitor zajêto¶ci pamiêci i swapa dla Window Makera
 Name:		WMMemMon
@@ -16,7 +16,6 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libdockapp-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 WMMemMon is a memory and swap monitoring dock applet for Window Maker.
@@ -43,7 +42,8 @@ rm -f missing
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
 
