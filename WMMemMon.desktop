@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=WMMemMon
+Name=WmMemMon
 Comment=Mem/Swap usage monitor
 Comment[pl]=Monitor zajêto¶ci pamiêci i swapa
 Exec=wmmemmon
