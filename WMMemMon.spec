@@ -1,4 +1,4 @@
-# $Revision: 1.7 $ $Date: 2002-05-21 23:12:39 $
+# $Revision: 1.8 $ $Date: 2002-10-09 13:14:15 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
 Summary(pl):	Monitor zajêto¶ci pamiêci i swapa dla Window Makera
 Name:		WMMemMon
@@ -32,7 +32,8 @@ czy Blackbox.
 %setup  -q
 
 %build
-aclocal
+rm -f missing
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure 
@@ -43,16 +44,14 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1}	$RPM_BUILD_ROOT%{_applnkdir}/DockApplets
-
-gzip -9nf README ChangeLog AUTHORS TODO
+install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README ChangeLog AUTHORS TODO
 %attr(755,root,root) %{_bindir}/wmmemmon
 
 %{_applnkdir}/DockApplets/WMMemMon.desktop
