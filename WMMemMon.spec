@@ -1,4 +1,4 @@
-# $Revision: 1.5 $ $Date: 2002-03-24 23:28:13 $
+# $Revision: 1.6 $ $Date: 2002-04-02 18:36:15 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
 Summary(pl):	Monitor zajêto¶ci pamiêci i swapa dla Window Makera
 Name:		WMMemMon
@@ -43,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-%{__install} %{SOURCE1}	$RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install %{SOURCE1}	$RPM_BUILD_ROOT%{_applnkdir}/DockApplets
 
 gzip -9nf README ChangeLog AUTHORS TODO
 
