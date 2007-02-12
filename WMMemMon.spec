@@ -1,6 +1,6 @@
-# $Revision: 1.15 $ $Date: 2007-02-12 00:48:34 $
+# $Revision: 1.16 $ $Date: 2007-02-12 21:23:45 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
-Summary(pl.UTF-8):   Monitor zajętości pamięci i swapa dla Window Makera
+Summary(pl.UTF-8):	Monitor zajętości pamięci i swapa dla Window Makera
 Name:		WMMemMon
 Version:	0.3.1
 Release:	1
