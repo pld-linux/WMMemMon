@@ -1,6 +1,6 @@
-# $Revision: 1.14 $ $Date: 2003-08-18 08:07:53 $
+# $Revision: 1.15 $ $Date: 2007-02-12 00:48:34 $
 Summary:	Memory/Swap monitoring dock applet for Window Maker
-Summary(pl):	Monitor zajêto¶ci pamiêci i swapa dla Window Makera
+Summary(pl.UTF-8):   Monitor zajÄ™toÅ›ci pamiÄ™ci i swapa dla Window Makera
 Name:		WMMemMon
 Version:	0.3.1
 Release:	1
@@ -22,10 +22,10 @@ WMMemMon is a memory and swap monitoring dock applet for Window Maker.
 Outside circle is Mem usage in percent. Inside is swap. It works fine
 with AfterStep and BlackBox.
 
-%description -l pl
-WMemMon do dokowalny graficzny monitor zajêto¶ci pamiêci i swapa dla
-Window Makera. Zewnêtrzne kó³ko to zajêto¶æ pamiêci, a wewnêtrzne to
-swap. Mo¿na go u¿ywaæ z innymi zarz±dcami okien, takimi jak Afterstep
+%description -l pl.UTF-8
+WMemMon do dokowalny graficzny monitor zajÄ™toÅ›ci pamiÄ™ci i swapa dla
+Window Makera. ZewnÄ™trzne kÃ³Å‚ko to zajÄ™toÅ›Ä‡ pamiÄ™ci, a wewnÄ™trzne to
+swap. MoÅ¼na go uÅ¼ywaÄ‡ z innymi zarzÄ…dcami okien, takimi jak Afterstep
 czy Blackbox.
 
 %prep
